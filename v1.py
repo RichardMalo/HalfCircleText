@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.patches as patches
 
-def plot_arcs(sentence, filename='output.png'):
+def plot_arcs(sentence, filename='outputv1.png'):
     words = sentence.split()
     fig, ax = plt.subplots()
 
@@ -33,4 +33,3 @@ def plot_arcs(sentence, filename='output.png'):
     plt.show()
 
 plot_arcs('a year from now you will wish you started today')
-

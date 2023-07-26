@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.patches as patches
 
-def plot_arcs(sentence, filename='output.png'):
+def plot_arcs(sentence, filename='outputv2.png'):
     words = sentence.split()
     fig, ax = plt.subplots()
 

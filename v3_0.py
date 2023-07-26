@@ -61,7 +61,7 @@ ax.set_xlim(-1, 2*n+1)
 ax.set_ylim(-radius-2, radius+2)  # accommodate the change in the center of the last arc
 
 # Save the plot as a JPG file
-plt.savefig("outputx1.jpg", facecolor=fig.get_facecolor(), edgecolor='none')
+plt.savefig("outputv3_0.jpg", facecolor=fig.get_facecolor(), edgecolor='none')
 
 # Show the plot
 plt.show()
