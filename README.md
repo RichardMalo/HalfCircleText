@@ -2,7 +2,7 @@
 
 ## Idea
 
-I saw a piece of art, it wasnt all that particularly well done, it wasnt even, wasnt fully neat and organic and I thought to myself I wonder if I can create the same thing but imporve on the concept. Can I make it neater, cleaner, can I eventually replace the words with my own, change colors etc... all using Python and the ability to once created have predictable and standardized outcomes vs someone drawing this free hand on Photoshop etc.
+I saw a piece of concept art, it wasnt all that particularly well done, it wasnt even aligned properly, neat and I thought to myself if I can create the same thing but imporve on the concept. Can I make it neater, cleaner, can I eventually replace the words with my own, change colors etc... all using Python and the ability to once created have predictable and standardized outcomes vs someone drawing this free hand on Photoshop etc.
 
 ## Versions
 
