@@ -27,7 +27,6 @@ def create_sentence_plot(sentence="a year from now you will wish you started tod
 
     # Define the radius for the arcs connecting words
     radius = abs(x[-2] - x[0]) / 2
-
     # Print words on the plot with selected color
     for i in range(n-1):  # Exclude the last word for now
         ax.text(x[i], y[i], words[i], color=txt_color, ha='center')
