@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
+import tkinter as tk
 
-def plot_triangles(sentence, filename='outputv1.png'):
+def plot_triangles(sentence, filename='output.png'):
     words = sentence.split()
     fig, ax = plt.subplots()
 
@@ -30,4 +31,17 @@ def plot_triangles(sentence, filename='outputv1.png'):
     plt.savefig(filename)
     plt.show()
 
-plot_triangles('a year from now you will wish you started today')
+def draw():
+    sentence = entry.get()
+    plot_triangles(sentence)
+
+root = tk.Tk()
+root.title('Triangle Plotter')
+
+entry = tk.Entry(root)
+entry.pack()
+
+button = tk.Button(root, text='Draw', command=draw)
+button.pack()
+
+root.mainloop()
