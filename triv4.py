@@ -99,7 +99,7 @@ def get_sentence():
     # Label and Dropdown menu for font
     tk.Label(root, text="Select Font").pack()
     font_var = tk.StringVar(root)
-    font_var.set('Helvetica')  # set default value
+    font_var.set(fonts[0])  # set default value to the first detected font
     font_option = ttk.Combobox(root, textvariable=font_var, values=fonts, width=58)  # Increase the width of the combobox widget
     font_option.pack()
 
