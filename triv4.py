@@ -4,7 +4,7 @@ import matplotlib.font_manager as fm
 import tkinter as tk
 from tkinter import ttk
 
-def plot_triangles(sentence, bg_color='black', txt_color='white', line_color='white', font_name='Helvetica', font_size='12', filename='outputv1.jpg'):
+def plot_triangles(sentence, bg_color='black', txt_color='white', line_color='white', font_name='Helvetica', font_size='12', filename='trioutputv4.jpg'):
     words = sentence.split()
     fig, ax = plt.subplots()
 
@@ -36,7 +36,7 @@ def plot_triangles(sentence, bg_color='black', txt_color='white', line_color='wh
     ax.set_ylim(-1, len(words) // 2 + 1)
 
     # Save the image
-    plt.savefig(filename, facecolor=bg_color, dpi=300)  # Increased dpi to 300
+    plt.savefig(filename, facecolor=bg_color, dpi=600)  # Increased dpi to 300
     
     # Show the plot
     manager = plt.get_current_fig_manager()

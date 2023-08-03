@@ -61,7 +61,7 @@ def create_sentence_plot(sentence="a year from now you will wish you started tod
     ax.set_ylim(-radius-2, radius+2)  # accommodate the change in the center of the last arc
 
     # Save the plot as a JPG file
-    plt.savefig("outputv4.jpg", facecolor=fig.get_facecolor(), edgecolor='none')
+    plt.savefig("outputv4.png", facecolor=fig.get_facecolor(), edgecolor='none')
 
     # Show the plot
     plt.show()

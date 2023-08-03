@@ -28,4 +28,4 @@ tirv3.py - better text input plus color selection. png output
 triv4.py - font choices and jpg output
 
 
-![Triangle Version 4](outputv5.jpg)
+![Triangle Version 4](trioutputv4.jpg)
