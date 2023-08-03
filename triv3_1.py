@@ -5,7 +5,7 @@ matplotlib.use("TkAgg")  # Use this backend for compatibility with tkinter and t
 import tkinter as tk
 from tkinter import ttk
 
-def plot_triangles(sentence, bg_color='black', txt_color='white', line_color='white', filename='outputv1.png'):
+def plot_triangles(sentence, bg_color='black', txt_color='white', line_color='white', filename='outputv1.jpg'):
     words = sentence.split()
     fig, ax = plt.subplots(figsize=(10, 10))  # Increase the figure size
 

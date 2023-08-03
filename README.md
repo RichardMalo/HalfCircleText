@@ -13,6 +13,9 @@ V1-V5: Each version introduces additional features and improvements.
 V5 (Current Version): The version I am currently working on has more customizable color selections and a cleaner input selection compared to the previous versions.
 
 ![Version 5](outputv5.jpg)
+V6 - minor tweak
+V7 - update to color choices and Capitalization of every first word choice button.
+![Version 7](outputv7.png)
 
 ## Triangle Verions
 
