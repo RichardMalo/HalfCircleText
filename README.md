@@ -17,7 +17,7 @@ V6 - minor tweak
 V7 - update to color choices and Capitalization of every first word choice button.
 ![Version 7](outputv7.png)
 
-## Triangle Verions
+## Triangle Versions
 
 Each version of the program builds upon the previous one, striving to become better and more flexible.
 
@@ -25,7 +25,7 @@ tri.py
 triv2.py
 triv2_1.py - text input box
 tirv3.py - better text input plus color selection. png output
-triv4.py - font choices and jpg output
+triv4.py - font choices and jpg output (font choices still have to be firmed up, still random)
 
 
 ![Triangle Version 4](trioutputv4.jpg)
