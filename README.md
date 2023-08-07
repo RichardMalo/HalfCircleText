@@ -4,6 +4,21 @@
 
 Inspired by a piece of concept art that lacked alignment and neatness, I took up the challenge to create an improved version using Python. The objective was to make it neater, cleaner, and customizable. This tool allows the user to replace the words with their own and offers flexibility in color selection. The advantage of using Python for this task is the capability to produce predictable and standardized outcomes as opposed to freehand drawings on software like Photoshop.
 
+## V10 UI
+![UI v10](UI.png)
+
+## HOW TO USE: ##
+
+**Enter a Sentence:** - Enter a sentence you would like displayed.
+
+**Background Color/Text Color/Line Color** - select from 70 different colors for your message display.
+
+**Capitalize first letter of each word** - Will automatically format your text to capital letters first on this selection.
+
+**Preview** - Button allows to see a full screen image of the previous selections. If happy with this proceed to Submit to save.
+
+**Submit** - Opens up a save file box to save anywhere on your computer for later use/viewing in JPG 600 DPI format. 
+
 ## Arc Versions
 
 Every iteration of the program introduces added features and enhancements, with each version building on the previous one.
@@ -26,21 +41,6 @@ Every iteration of the program introduces added features and enhancements, with 
 
 
 ![Version 10 - Current final working version](output.jpg)
-
-## V10 UI
-![UI v10](UI.png)
-
-## HOW TO USE: ##
-
-**Enter a Sentence:** - Enter a sentence you would like displayed.
-
-**Background Color/Text Color/Line Color** - select from 70 different colors for your message display.
-
-**Capitalize first letter of each word** - Will automatically format your text to capital letters first on this selection.
-
-**Preview** - Button allows to see a full screen image of the previous selections. If happy with this proceed to Submit to save.
-
-**Submit** - Opens up a save file box to save anywhere on your computer for later use/viewing in JPG 600 DPI format. 
 
 ## Triangle Versions
 
