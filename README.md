@@ -8,15 +8,22 @@ Inspired by a piece of concept art that lacked alignment and neatness, I took up
 
 Every iteration of the program introduces added features and enhancements, with each version building on the previous one.
 
-V1-V7: Each version introduces additional features and improvements.
+**V1-V7:** Each version introduces additional features and improvements.
 
-V5 - This version has more customizable color selections and a cleaner input selection compared to the previous versions.
-V6 - This version includes minor tweaks.
-V7 (Current Version) - This version provides updates to color choices and introduces a feature to capitalize the first letter of every word.
-V8 - Update to system compatibility. Dual windows are open. Program properly terminates when the main GUI window closes. Elimianted the problem with spaces between word interupting output. Only words will have lines drawn to them.
-V9 - Save only Version. No preview.
+**V5** - This version has more customizable color selections and a cleaner input selection compared to the previous versions.
+
+**V6** - This version includes minor tweaks.
+
+**V7** (Current Version) - This version provides updates to color choices and introduces a feature to capitalize the first letter of every word.
+
+**V8** - Update to system compatibility. Dual windows are open. Program properly terminates when the main GUI window closes. Elimianted the problem with spaces between word interupting output. Only words will have lines drawn to them.
+
+**V9** - Save only Version. No preview.
+
 ## Current Final Version 10
-V10 - Updated UI / Updated Output with higher quality output of images/Preview/Save options.
+
+**V10** - Updated UI / Updated Output with higher quality output of images/Preview/Save options.
+
 
 ![Version 10 - Current final working version](output.jpg)
 
