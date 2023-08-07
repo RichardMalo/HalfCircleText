@@ -30,6 +30,7 @@ Every iteration of the program introduces added features and enhancements, with 
 ## V10 UI
 ![UI v10](UI.png)
 
+## HOW TO USE: ##
 
 **Enter a Sentence:** - Enter a sentence you would like displayed.
 
