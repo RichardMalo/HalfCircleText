@@ -16,6 +16,8 @@ V7 (Current Version) - This version provides updates to color choices and introd
 
 ![Version 7](outputv7.png)
 
+V8 - Update to system compatibility. Dual windows are open. Program properly terminates when the main GUI window closes. Elimianted the problem with spaces between word interupting output. Only words will have lines drawn to them.
+
 ## Triangle Versions
 
 Similar to the arc versions, each iteration of the Triangle Version program builds upon the previous one, making it better and more flexible.
