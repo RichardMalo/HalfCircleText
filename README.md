@@ -54,5 +54,5 @@ triv4.py - This version introduces font choices and outputs in JPG format. The f
 
 ![Triangle Version 4](trioutputv4.jpg)
 
-## Designer
+## Designer:
 Richard Malolepszy
