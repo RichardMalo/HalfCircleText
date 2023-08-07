@@ -23,11 +23,16 @@ V10 - Updated UI / Updated Output with higher quality output of images/Preview/S
 ## V10 UI
 ![UI v10](UI.png)
 
-Enter a Sentence: - Enter a sentence you would like displayed.
-Background Color/Text Color/Line Color - select from 70 different colors for your message display
-Capitalize first letter of each word - Will automatically format your text to capital letters first on this selection.
-Preview - Button allows to see a full screen image of the previous selections. If happy with this proceed to Submit to save.
-Submit - Opens up a save file box to save anywhere on your computer for later use/viewing in JPG 600 DPI format. 
+
+**Enter a Sentence:** - Enter a sentence you would like displayed.
+
+**Background Color/Text Color/Line Color** - select from 70 different colors for your message display.
+
+**Capitalize first letter of each word** - Will automatically format your text to capital letters first on this selection.
+
+**Preview** - Button allows to see a full screen image of the previous selections. If happy with this proceed to Submit to save.
+
+**Submit** - Opens up a save file box to save anywhere on your computer for later use/viewing in JPG 600 DPI format. 
 
 ## Triangle Versions
 
