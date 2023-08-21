@@ -129,7 +129,7 @@ class SentenceApp:
 
         for i in range(1, n-1):
             radius_i = abs(x[i] - x[0]) / 2
-            arc = Arc((radius_i, 0.5), 2*radius_i, 2*radius_i, theta1=0, theta2=180, edgecolor=line_color or self.line_color, lw=2)
+            arc = Arc((radius_i, 0.6), 2*radius_i, 2*radius_i, theta1=0, theta2=180, edgecolor=line_color or self.line_color, lw=2)
             ax.add_patch(arc)
 
         start_arc_1, end_arc_1 = 180, 270
