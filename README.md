@@ -6,6 +6,9 @@ Inspired by a piece of concept art that lacked alignment and neatness, I took up
 
 ## V10 UI:
 ![UI v10](UI.png)
+## V10 UI:
+![UI v12](UI2.png)
+
 
 ## HOW TO USE: ##
 
@@ -39,8 +42,13 @@ Every iteration of the program introduces added features and enhancements, with 
 
 **V10** - Updated UI / Updated Output with higher quality output of images/Preview/Save options.
 
-
 ![Version 10 - Current final working version](output.jpg)
+
+**V12** - Updated UI / Updated Output with options with fonts sizes and font style (bold, italic etc.)
+        - Option to Randomly generate 20 color options and save them to Random folder.
+
+![Version 12 - Current final working version](output12.png)
+
 
 ## Triangle Versions:
 

@@ -11,7 +11,7 @@ from tkinter import filedialog
 def create_sentence_plot(sentence="a year from now you will wish you started today", bg_color='black', txt_color='white', line_color='white', capitalize=False):
     if capitalize:
         sentence = sentence.title()
-    words = sentence.split(' ')
+    words = sentence.split()
 
     fig, ax = plt.subplots(figsize=(10, 10))
     fig.patch.set_facecolor(bg_color)
