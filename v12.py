@@ -19,8 +19,8 @@ class SentenceApp:
         self.bg_color = 'black'
         self.txt_color = 'white'
         self.line_color = 'white'
-        self.font_size = 10  # Initialize font size
-        self.font_style = 'normal'  # Initialize font style
+        self.font_size = 10
+        self.font_style = 'normal'
         
         self.create_widgets()
 
@@ -28,7 +28,7 @@ class SentenceApp:
         self.create_menu()
         self.create_entry()
         self.create_font_size_selector()
-        self.create_font_style_selector()  # Add font style selector after font size selector
+        self.create_font_style_selector()
         self.create_color_picker("Select Background Color", 'black', lambda val: setattr(self, 'bg_color', val))
         self.create_color_picker("Select Text Color", 'white', lambda val: setattr(self, 'txt_color', val))
         self.create_color_picker("Select Line Color", 'white', lambda val: setattr(self, 'line_color', val))
@@ -68,7 +68,6 @@ class SentenceApp:
         font_style_var = tk.StringVar(self.root)
         font_style_var.set(self.font_style)
         
-        # Assuming you want these styles; you can expand this list with other valid matplotlib font styles
         font_styles = ["normal", "bold", "italic", "oblique"]
         font_style_option = ttk.Combobox(self.root, textvariable=font_style_var, values=font_styles, width=58)
         font_style_option.bind("<<ComboboxSelected>>", lambda event: setattr(self, 'font_style', font_style_var.get()))
@@ -88,6 +87,12 @@ class SentenceApp:
         tk.Label(self.root, text="Capitalize first letter of each word").pack()
         tk.Checkbutton(self.root, variable=self.var_capitalize).pack()
 
+        # Added lines for ALL CAPS option
+        self.var_all_caps = tk.BooleanVar()
+        self.var_all_caps.set(False)
+        tk.Label(self.root, text="Convert sentence to ALL CAPS").pack()
+        tk.Checkbutton(self.root, variable=self.var_all_caps).pack()
+
     def create_buttons(self):
         tk.Button(self.root, text="Preview", command=self.preview).pack()
         tk.Button(self.root, text="Submit", command=self.submit).pack()
@@ -104,7 +109,9 @@ class SentenceApp:
     def create_sentence_plot(self, sentence=None, bg_color=None, txt_color=None, line_color=None, capitalize=False):
         if not sentence:
             sentence = self.sentence_entry.get()
-        if capitalize or self.var_capitalize.get():
+        if self.var_all_caps.get():
+            sentence = sentence.upper()
+        elif capitalize or self.var_capitalize.get():
             sentence = sentence.title()
         words = sentence.split()
 
@@ -170,7 +177,7 @@ class SentenceApp:
     def save_image(self, fig):
         file_path = filedialog.asksaveasfilename(defaultextension=".png", initialdir=".")
         if file_path:
-            fig.savefig(file_path)
+            fig.savefig(file_path, dpi=1200, format='png')
 
     def save_random_20(self):
         if not os.path.exists("Random"):
@@ -183,7 +190,7 @@ class SentenceApp:
 
             fig = self.create_sentence_plot(bg_color=random_bg_color, txt_color=random_txt_color, line_color=random_line_color)
             filename = f"Random/random_combination_{i + 1}.jpg"
-            fig.savefig(filename, dpi=600, format="jpg")
+            fig.savefig(filename, dpi=600, format="png")
             
             # Close the figure after saving
             plt.close(fig)
